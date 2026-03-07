@@ -170,6 +170,26 @@ gcp-bitcoin-batch-pipeline
 
 ---
 
+## Looker Studio Dashboard
+
+The pipeline data is visualized using a Looker Studio dashboard connected to the **BigQuery Gold layer**.
+
+The dashboard displays:
+
+- Current Bitcoin Price
+- Market Capitalization
+- Daily Price Change
+- Bitcoin Price Evolution
+- Trading Volume
+
+### Dashboard Preview
+
+![Bitcoin Dashboard](dashboard/bitcoin_dashboard.png)
+
+### Live Dashboard
+
+https://lookerstudio.google.com/reporting/b03de795-8410-45d5-a294-83cd34268b02
+
 # Skills Demonstrated
 
 - Batch data pipeline design  
