@@ -55,20 +55,14 @@ The pipeline follows a **multi-layer data architecture**:
 
 ---
 
-# Architecture Flow
-CSV Dataset
-↓
-Cloud Storage
-↓
-BigQuery Bronze (bitcoin_raw)
-↓
-Cloud Run (Python + SQL transformations)
-↓
-BigQuery Silver (bitcoin_prices)
-↓
-BigQuery Gold (bitcoin_kpis)
-↓
-Cloud Scheduler
+## Architecture Flow
+
+1. CSV Dataset → uploaded to Cloud Storage
+2. Raw data ingested into **BigQuery Bronze (`bitcoin_raw`)**
+3. **Cloud Scheduler** triggers the pipeline daily
+4. **Cloud Run** executes Python + SQL transformations
+5. Clean data stored in **BigQuery Silver (`bitcoin_prices`)**
+6. Aggregated metrics stored in **BigQuery Gold (`bitcoin_kpis`)**
 
 
 ---
