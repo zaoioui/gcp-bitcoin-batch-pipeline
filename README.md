@@ -146,23 +146,27 @@ Cloud Scheduler triggers the Cloud Run service automatically **every day** to ex
 ---
 
 ## Project Structure
+## Project Structure
+
+```
 gcp-bitcoin-batch-pipeline
 │
 ├── architecture
-│ └── pipeline_architecture.png
+│   └── pipeline_architecture.png
 │
 ├── cloud_run
-│ ├── main.py
-│ └── requirements.txt
+│   ├── main.py
+│   └── requirements.txt
 │
 ├── sql
-│ ├── silver_bitcoin_prices.sql
-│ └── gold_bitcoin_kpis.sql
+│   ├── silver_bitcoin_prices.sql
+│   └── gold_bitcoin_kpis.sql
 │
 ├── data
-│ └── bitcoin_historical_data.csv
+│   └── bitcoin_historical_data.csv
 │
 └── README.md
+```
 
 ---
 
