@@ -145,7 +145,7 @@ Cloud Scheduler triggers the Cloud Run service automatically **every day** to ex
 
 ---
 
-# Project Structure
+## Project Structure
 gcp-bitcoin-batch-pipeline
 │
 ├── architecture
