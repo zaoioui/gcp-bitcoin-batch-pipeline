@@ -196,12 +196,15 @@ The dashboard displays:
 
 https://lookerstudio.google.com/reporting/b03de795-8410-45d5-a294-83cd34268b02
 
-# Skills Demonstrated
+## Skills Demonstrated
 
-- Batch data pipeline design  
-- Google Cloud architecture  
-- BigQuery data warehousing  
-- Cloud Run serverless processing  
-- Cloud Scheduler orchestration  
-- SQL data transformations  
+- Batch data pipeline design
+- Google Cloud architecture
+- BigQuery data warehousing
+- Cloud Run serverless processing
+- Cloud Scheduler orchestration
+- SQL data transformations
 - Python for data engineering
+- Infrastructure as Code with Terraform
+- Data visualization with Looker Studio
+- Git and GitHub for version control
