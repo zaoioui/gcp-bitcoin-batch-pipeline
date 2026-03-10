@@ -138,6 +138,18 @@ Cloud Run executes the transformation pipeline:
 Cloud Scheduler triggers the Cloud Run service automatically **every day** to execute the pipeline.
 
 ---
+## Infrastructure as Code
+
+The infrastructure is provisioned using Terraform.
+
+Terraform resources created:
+
+- Google Cloud Storage bucket
+- BigQuery Bronze dataset
+- BigQuery Silver dataset
+- BigQuery Gold dataset
+
+Terraform files are stored in the `terraform/` folder.
 
 ## Project Structure
 ## Project Structure
