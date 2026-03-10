@@ -151,6 +151,18 @@ Terraform resources created:
 
 Terraform files are stored in the `terraform/` folder.
 
+## CI/CD Pipeline
+
+This project includes a secure CI/CD pipeline using GitHub Actions and Google Cloud Workload Identity Federation.
+
+The pipeline automatically deploys the Cloud Run service when code is pushed to the main branch.
+
+Key components:
+- GitHub Actions
+- Workload Identity Federation
+- Cloud Run deployment
+- Secure authentication without service account keys
+
 ## Project Structure
 ## Project Structure
 
