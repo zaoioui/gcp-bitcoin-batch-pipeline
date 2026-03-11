@@ -164,7 +164,6 @@ Key components:
 - Secure authentication without service account keys
 
 ## Project Structure
-## Project Structure
 
 ```
 gcp-bitcoin-batch-pipeline

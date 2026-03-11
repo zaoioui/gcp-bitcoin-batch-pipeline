@@ -26,9 +26,9 @@ jobs:
       - name: Setup gcloud
         uses: google-github-actions/setup-gcloud@v2
 
-      - name: Deploy Cloud Run
-        run: |
-          gcloud run deploy bitcoin-pipeline \
-            --source ./cloud_run \
-            --region us-west1 \
-            --allow-unauthenticated
+- name: Deploy Cloud Run
+  run: |
+    gcloud run deploy run-bitcoin-pipeline \
+      --source ./cloud_run \
+      --region us-west1 \
+      --allow-unauthenticated
