@@ -163,6 +163,21 @@ Key components:
 - Cloud Run deployment
 - Secure authentication without service account keys
 
+## Monitoring & Logging
+
+The pipeline uses Google Cloud monitoring capabilities.
+
+Cloud Run logs can be viewed in:
+
+- Google Cloud Console → Logging → Cloud Run
+
+Monitoring points include:
+
+- pipeline execution status
+- execution duration
+- error logs
+- job scheduling status
+
 ## Project Structure
 
 ```
@@ -219,3 +234,13 @@ https://lookerstudio.google.com/reporting/b03de795-8410-45d5-a294-83cd34268b02
 - Infrastructure as Code with Terraform
 - Data visualization with Looker Studio
 - Git and GitHub for version control
+
+## Future Improvements
+
+Possible improvements for production-grade pipelines:
+
+- Implement streaming ingestion using Pub/Sub
+- Use Dataflow for real-time data processing
+- Add data quality checks
+- Add unit tests for transformation logic
+- Add alerting for failed pipeline executions
