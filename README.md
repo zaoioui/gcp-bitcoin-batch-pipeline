@@ -180,8 +180,12 @@ Monitoring points include:
 
 ## Project Structure
 
-```
+```text
 gcp-bitcoin-batch-pipeline
+│
+├── .github
+│   └── workflows
+│       └── deploy.yml
 │
 ├── architecture
 │   └── pipeline_architecture.png
@@ -190,18 +194,25 @@ gcp-bitcoin-batch-pipeline
 │   ├── main.py
 │   └── requirements.txt
 │
+├── dashboard
+│   └── bitcoin_dashboard.png
+│
 ├── sql
 │   ├── silver_bitcoin_prices.sql
 │   └── gold_bitcoin_kpis.sql
+│
+├── terraform
+│   ├── provider.tf
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   └── .gitignore
 │
 ├── data
 │   └── bitcoin_historical_data.csv
 │
 └── README.md
 ```
-
----
-
 ## Looker Studio Dashboard
 
 The pipeline data is visualized using a Looker Studio dashboard connected to the **BigQuery Gold layer**.
