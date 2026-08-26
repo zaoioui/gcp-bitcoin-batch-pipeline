@@ -252,6 +252,5 @@ Possible improvements for production-grade pipelines:
 
 - Implement streaming ingestion using Pub/Sub
 - Use Dataflow for real-time data processing
-- Add data quality checks
 - Add unit tests for transformation logic
 - Add alerting for failed pipeline executions
