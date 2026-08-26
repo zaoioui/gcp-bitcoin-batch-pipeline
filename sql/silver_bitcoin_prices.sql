@@ -1,3 +1,5 @@
+-- Bronze → Silver
+-- Nettoyage et standardisation des données Bitcoin
 CREATE OR REPLACE TABLE `finance-data-pipeline-489121.silver.bitcoin_prices` AS
 SELECT
   PARSE_DATE('%b-%d-%Y', date) AS trade_date,
